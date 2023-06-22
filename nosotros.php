@@ -434,8 +434,8 @@
           <p>Acercamos el futuro.</p>
           <div class="social-links d-flex mt-4">
             <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
-            <a href="https://www.facebook.com/profile.php?id=100086491298497" class="facebook"><i class="bi bi-facebook"></i></a>
-           <!--<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
+            <a href="https://www.facebook.com/profile.php?id=100086491298497" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <!--<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
             <!--<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>-->
           </div>
         </div>
@@ -443,12 +443,22 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Nuestros servicios</h4>
           <ul>
-            <li><a href="contacto">Paginas Web</a></li>
+            <li><a href="contacto">Desarrollo de páginas Web</a></li>
             <li><a href="contacto">Desarrollo Web</a></li>
-            <li><a href="contacto">Ecommerce</a></li>
-            <li><a href="contacto">ERP</a></li>
-            <li><a href="contacto">CRM</a></li>
+            <li><a href="contacto">Desarrollo de ecommerce</a></li>
+            <li><a href="contacto">Desarrollo de ERP</a></li>
+            <li><a href="contacto">Desarrollo de CRM</a></li>
             <li><a href="contacto">Sistemas a medida</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="inicio">Inicio</a></li>
+            <li><a href="nosotros">Nosotros</a></li>
+            <li><a href="servicios">Servicios</a></li>
+            <li><a href="contacto">Contacto</a></li>
           </ul>
         </div>
 
@@ -469,7 +479,7 @@
 
     <div class="container mt-4">
       <div class="copyright">
-        <?php echo date('Y'); ?> &copy; Copyright <strong><span>Skytech</span></strong>.Todos los derechos reservados.
+        <?php echo date('Y'); ?>  &copy; Copyright <strong><span>Skytech</span></strong>.Todos los derechos reservados.
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

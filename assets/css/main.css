@@ -1,5 +1,5 @@
 /**
-* Template Name: Logis - v1.2.0
+* Template Name: Logis - v1.2.1
 * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -27,8 +27,6 @@
 .fontsforweb_fontid_2802 {
 	font-family: 'BAUHS93' !important;
 }
-
-/* Font downloaded from FontsForWeb.com */
 
 /* Colors */
 :root {
@@ -69,11 +67,43 @@ h6 {
   font-family: var(--font-primary);
 }
 
+.h3 {
+
+  font-weight: 700;
+  font-size: 32px;
+  font-family: var(--font-secondary);
+  color: #001f8d;
+
+}
+
+.h3-black {
+
+  font-weight: 700;
+  font-size: 26px;
+  font-family: var(--font-secondary);
+  color: #000;
+
+}
+
+/*--------------------------------------------------------------
+# Title index principal de Skytech
+--------------------------------------------------------------*/
+
+.text-modificado {
+  padding-bottom: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 32px;
+  font-family: var(--font-secondary);
+  color: #001f8d;
+
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 100px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -151,7 +181,7 @@ section {
   background-repeat: no-repeat;
 }
 
-.breadcrumbs .page-header:before {    /* efecto fondo tintado header*/
+.breadcrumbs .page-header:before {
   content: "";
   background-color: rgba(116, 146, 175, 0.8);
   position: absolute;
@@ -218,7 +248,7 @@ section {
   background: rgba(0, 177, 215, 0.8);
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 40px;
   transition: all 0.4s;
 }
 
@@ -236,6 +266,12 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.active-menu {
+
+  font-style: bold;
+
 }
 
 /*--------------------------------------------------------------
@@ -322,7 +358,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fff;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -330,7 +366,6 @@ section {
 .header .logo img {
   max-height: 70px;
   margin-right: 12px;
-  
 }
 
 .header .logo h1 {
@@ -341,10 +376,10 @@ section {
   font-family: var(--font-primary);
 }
 
+
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-
 @media (min-width: 1280px) {
   .navbar {
     padding: 0;
@@ -371,7 +406,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgb(58, 54, 54);    /*Cambio del color del hover*/
+    color:   #4d5458;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -387,7 +422,8 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #001f8d;
+    color:   #001f8d;
+  }
   }
 
   .navbar .get-a-quote,
@@ -435,7 +471,6 @@ section {
 
   .navbar .dropdown ul a i {
     font-size: 12px;
-    color: #fff;
   }
 
   .navbar .dropdown ul a:hover,
@@ -462,7 +497,7 @@ section {
     left: 100%;
     visibility: visible;
   }
-}
+
 
 @media (min-width: 1280px) and (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -502,7 +537,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(14, 29, 52, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -517,7 +552,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 500;
-    color: rgba(35, 52, 154, 0.7);
+    color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -558,7 +593,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #fff;
+    border: 1px solid #19335c;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -613,13 +648,6 @@ section {
   height: 100%;
   margin-bottom: 20px;
 }
-
-.featured-services {
-
-  padding-bottom: 250px;
-
-}
-
 
 .featured-services .service-item .icon {
   margin-right: 20px;
@@ -676,7 +704,7 @@ section {
 # About Us Section
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 32px;
   font-family: var(--font-secondary);
   color: #001f8d;
@@ -865,7 +893,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(35, 52, 104, 0.6), rgba(14, 29, 52, 0.8)), url("../img/sky_tech.jpg") center center;
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/sky_tech.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -901,7 +929,7 @@ section {
 }
 
 .call-to-action .cta-btn:hover {
-  background: #2f3d6f;
+  background: var(--color-primary);
   border: 2px solid var(--color-primary);
 }
 
@@ -1130,7 +1158,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/clientes.jpg") no-repeat;
+  background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1632,9 +1660,6 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-.error-message{
-  display: none;
-}
 
 .contact .php-email-form .error-message br+br {
   margin-top: 25px;
@@ -1775,23 +1800,21 @@ section {
 
 /*--------------------------------------------------------------
 # Hero Section
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .hero {
+  
+}*/
+
+.video {
   width: 100%;
-  min-height: 50vh;
-  /*background-color: var(--color-secondary);*/
-  background-image: url("../img/hero-bg.png");
+ 
+  background-color: var(--color-secondary);
+  /*background-clip: url("../assets/video/skytech.mp4");*/
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 120px 0 60px 0;
+  /*padding: 120px 0 60px 0;*/
   color: rgba(255, 255, 255, 0.8);
-}
-
-#featured-services {
-
-  padding-bottom: 290px;
-
 }
 
 .hero h2 {
@@ -1994,220 +2017,4 @@ section {
 
 .footer .credits a {
   color: #fff;
-}
-
-.video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  padding-bottom: 10;
-}
-
-.h3 {
-
-  font-weight: 700;
-  font-size: 32px;
-  font-family: var(--font-secondary);
-  color: #001f8d;
-
-}
-
-.h3-black {
-
-  font-weight: 700;
-  font-size: 26px;
-  font-family: var(--font-secondary);
-  color: #000;
-
-}
-
-.fs-2 {
-
-  font-weight: 500;
-  font-size: 20px;
-  font-family: var(--font-secondary);
-  color: #000;
-
-}
-
-.lista-servicio {
-
-  list-style: square inside;
-
-}
-
-#herramientas-padding {
-
-  padding-bottom: 40px;
-
-}
-/*Menu Efectos*/
-* {
-  box-sizing: border-box;
-}
-
-
-.menu {
-  text-align: center;
-  text-transform: uppercase;
-
-  font-weight: 500;
-}
-
-.menu li {
-  display: inline-block;
-  list-style: outside none none;
-  margin: 1em 1.5em;
-  padding: 0;
-}
-
-.menu a:before,
-.menu a:after {
-  position: absolute;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.menu a:before {
-  top: 0;
-  display: block;
-  height: 3px;
-  width: 0%;
-  content: "";
-  background-color: #001f8d;
-}
-.menu a:after {
-  left: 0;
-  top: 0;
-  padding: 0.5em 0;
-  position: absolute;
-  content: attr(data-hover);
-  
-  white-space: nowrap;
-  max-width: 0%;
-  overflow: hidden;
-}
-.menu a:hover:before,
-.menu .active a:before {
-  opacity: 1;
-  width: 100%;
-}
-.menu a:hover:after,
-.menu .active a:after {
-  max-width: 100%;
-}
-.imge-fluid {
-  width:80px;    
-  height:80px;
-      
-}
-
-/*--------------------------------------------------------------
-# About section vista responsiva fixed
-
-@media screen and (max-width: 640px) {
-  #about {
-    padding-top: 490px;
-  }
-}
-
-@media screen and (min-width: 640px) and (max-width: 1280px) {
-  #about {
-    padding-top: 490px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  #about {
-    padding-top: 390px;
-  }
-}
---------------------------------------------------------------*/
-
-
-/* Smartphones (portrait & landscape) 
-#Dispositivo = Mayoría de teléfonos móviles (vertical y horizontal) 
-#Resolución = B/w 320px to 479px 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  #about {
-    padding-top: 490px;
-  }
-}*/
-
-/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
-#Resolución = B/w 481px to 767px 
-@media (min-width: 481px) and (max-width: 767px) {
-  #about {
-    padding-top: 490px;
-  }
-}*/
-  
-/* Smartphones (landscape) 
-@media only screen and (min-width : 321px) {
-  #about {
-    padding-top: 490px;
-  }
-}*/
-
-/* Smartphones (portrait) 
-@media only screen and (max-width : 320px) {
-  #about {
-    padding-top: 490px;
-  }
-}*/
- 
-/* iPads (portrait & landscape) 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  #about {
-    padding-top: 490px;
-  }
-}*/
- 
-/* iPads (landscape) 
-#Dispositivo = Tablets, Ipads (horizontal) 
-#Resolución = B/w 768px to 1024px 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
-and (orientation : landscape) {
-  #about {
-    padding-top: 490px;
-  } 
-}*/
- 
-/* iPads (portrait) 
-#Dispositivo = Tablets, Ipads (vertical) 
-#Resolucion = B/w 768px to 1024px 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
-and (orientation : portrait) {
-  #about {
-    padding-top: 490px;
-  }
-}*/
- 
-/* Ordenadores de sobremesa y portátiles 
-@media only screen and (min-width : 1224px) {
-  #about {
-    padding-top: 490px;
-  } 
-}*/
- 
-/* Pantallas grandes 
-@media only screen and (min-width : 1824px) {
-  #about {
-    padding-top: 490px;
-  } 
-}*/
- 
-/* iPhone 4 
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
-only screen and (min-device-pixel-ratio : 1.5) {
-  #about {
-    padding-top: 590px;
-  } 
-}*/
-.video {
-
- padding-bottom: 400px;
-
 }

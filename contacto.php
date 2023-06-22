@@ -144,62 +144,72 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
+ <!-- ======= Footer ======= -->
  <footer id="footer" class="footer">
 
-  <div class="container">
-    <div class="row gy-4">
-      <div class="col-lg-5 col-md-12 footer-info">
-        <a href="index" class="logo d-flex align-items-center">
-          <span>SKYTECH</span>
-        </a>
-        <p>Acercamos el futuro.</p>
-        <div class="social-links d-flex mt-4">
-          <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
-          <a href="https://www.facebook.com/profile.php?id=100086491298497" class="facebook"><i class="bi bi-facebook"></i></a>
-          <!--<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
-          <!--<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>-->
-        </div>
+<div class="container">
+  <div class="row gy-4">
+    <div class="col-lg-5 col-md-12 footer-info">
+      <a href="index" class="logo d-flex align-items-center">
+        <span>SKYTECH</span>
+      </a>
+      <p>Acercamos el futuro.</p>
+      <div class="social-links d-flex mt-4">
+        <!--<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>-->
+        <a href="https://www.facebook.com/profile.php?id=100086491298497" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+        <!--<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
+        <!--<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>-->
       </div>
+    </div>
 
-      <div class="col-lg-2 col-6 footer-links">
-        <h4>Nuestros servicios</h4>
-        <ul>
-          <li><a href="contacto">Paginas Web</a></li>
-          <li><a href="contacto">Desarrollo Web</a></li>
-          <li><a href="contacto">Ecommerce</a></li>
-          <li><a href="contacto">ERP</a></li>
-          <li><a href="contacto">CRM</a></li>
-          <li><a href="contacto">Sistemas a medida</a></li>
-        </ul>
-      </div>
+    <div class="col-lg-2 col-6 footer-links">
+      <h4>Nuestros servicios</h4>
+      <ul>
+        <li><a href="contacto">Desarrollo de páginas Web</a></li>
+        <li><a href="contacto">Desarrollo Web</a></li>
+        <li><a href="contacto">Desarrollo de ecommerce</a></li>
+        <li><a href="contacto">Desarrollo de ERP</a></li>
+        <li><a href="contacto">Desarrollo de CRM</a></li>
+        <li><a href="contacto">Sistemas a medida</a></li>
+      </ul>
+    </div>
 
-      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-        <h4>Contáctanos</h4>
-        <p>
-          Calle 10c #257 entre 15c y 17 Fraccionamiento Vergel 1 <br>
-          Mérida, Yucatán<br>
-          México <br><br>
-          <strong>Teléfonos:</strong> +52 (999) 414 3776 y +52 (999) 996 2727<br> 
-          <strong>Email:</strong> ventas@skytech.com.mx<br>
-        </p>
+    <div class="col-lg-2 col-6 footer-links">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="inicio">Inicio</a></li>
+        <li><a href="nosotros">Nosotros</a></li>
+        <li><a href="servicios">Servicios</a></li>
+        <li><a href="contacto">Contacto</a></li>
+      </ul>
+    </div>
 
-      </div>
+    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+      <h4>Contáctanos</h4>
+      <p>
+        Calle 10c #257 entre 15c y 17 Fraccionamiento Vergel 1 <br>
+        Mérida, Yucatán<br>
+        México <br><br>
+        <strong>Teléfonos:</strong> +52 (999) 414 3776 y +52 (999) 996 2727<br> 
+        <strong>Email:</strong> ventas@skytech.com.mx<br>
+      </p>
 
     </div>
+
   </div>
+</div>
 
-  <div class="container mt-4">
-    <div class="copyright">
-      <?php echo date('Y'); ?> &copy; Copyright <strong><span>Skytech</span></strong>.Todos los derechos reservados.
-    </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
-    </div>
+<div class="container mt-4">
+  <div class="copyright">
+    <?php echo date('Y'); ?>  &copy; Copyright <strong><span>Skytech</span></strong>.Todos los derechos reservados.
   </div>
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/ -->
+  </div>
+</div>
 
 </footer><!-- End Footer -->
 <!-- End Footer -->

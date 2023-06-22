@@ -18,7 +18,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/fonts/font.css">
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -27,84 +26,106 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css?version=20221019" rel="stylesheet">
-  
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="content-container " id="">                    
-      <video class="video" src="assets/video/skytech.mp4" muted="" autoplay="" loop=""></video>
-  </div>
+    <video class="video" src="assets/video/skytech.mp4" muted="" autoplay="" loop=""></video>
+</div>
+
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-       <img src="assets/img/skytech.png" alt="Skytech"> 
-        <!--<h1>SKYTECH</h1> -->
-      </a>
-     
 
+      <a href="index" class="logo d-flex align-items-center">
+        <img src="assets/img/skytech.png" alt="Skytech"> 
+      </a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
-        <ul class="menu">
-          <li><a href="index" data-hover="" class="fontsforweb_fontid_2802">INICIO</a></li>
-          <li><a href="nosotros" data-hover="" class="fontsforweb_fontid_2802">NOSOTROS</a></li>
-          <li><a href="servicios" data-hover="" class="fontsforweb_fontid_2802">SERVICIOS</a></li>
-          <li><a href="contacto" data-hover="" class="fontsforweb_fontid_2802">CONTACTO</a></li>
+        <ul>
+          <li><a href="index" class="fontsforweb_fontid_2802">INICIO</a></li>
+          <li><a href="nosotros" class="fontsforweb_fontid_2802">NOSOTROS</a></li>
+          <li><a href="servicios" class="fontsforweb_fontid_2802">SERVICIOS</a></li>
+          <li><a href="contacto" class="fontsforweb_fontid_2802">CONTACTO</a></li>
         </ul>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
-  <!-- End Header -->
-
-  
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <!--<h2 data-aos="fade-up">Your Lightning Fast Delivery Partner</h2>-->
-          <h4 data-aos="fade-up" data-aos-delay="100"></h4> 
-          </div> 
-        </div> 
-      </div>
-    </div>
-  </section><!-- End Hero Section -->
-
+  </header>
   <main id="main">
 
     <!-- ======= Featured Services Section ======= -->
-    <!-- <section id="featured-services" class="featured-services">
+    <section id="featured-services" class="featured-services">
+      
+      <div class="container">
+        <div id= "about" class=".col-6 .col-sm-4 text-modificado">
+        <h3 style="font-weight: 700;"data-aos="fade-up" >SOMOS UNA EMPRESA MEXICANA, ESPECIALIZADA EN CREAR SOLUCIONES TECNOLÓGICAS.</h3>
+       </div>
+        <div class="row gy-4">
+          
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-laptop-code"></i></div>  
+            <div>
+              <h4 class="title">DESAROLLO DE SOFTWARE DE NEGOCIOS ELECTRÓNICOS</h4>
+              <p class="description">Automatiza todas las operaciones de tu tienda online.</p>
+              <p class="description">Mejora la ventaja competitiva.</p>
+              <p class="description">Fideliza a los clientes.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link"><span>Leer más</span><i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-desktop"></i></div>
+            <div>
+              <h4 class="title">DESAROLLO DE SOFTWARE DE ESCRITORIO</h4>
+              <p class="description">Datos centralizados.</p>
+              <p class="description">Mayor rapidez de carga de datos.</p>
+              <p class="description">Mayor control de la seguridad.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link"><span>Leer más</span><i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="fa-solid fa-laptop-file"></i></div>
+            <div>
+              <h4 class="title">DESARROLLO DE SOFTWARE A MEDIDA</h4>
+              <p class="description">Personalizado a las necesidades del cliente.</p>
+              <p class="description">Fácil mantenimiento.</p>
+              <p class="description">Uso intuitivo.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link"><span>Leer más</span><i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
         </div>
 
-      </div> 
-    </section> -->
-    <!-- End Featured Services Section -->
+      </div>
+    </section><!-- End Featured Services Section -->
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about pt-0 pb-5">
+    <section id="about" class="about pt-0">
       <div class="container" data-aos="fade-up">
 
         <div class="row gy-4">
-          <div id= "about" class="col-lg-6 content order-last  order-lg-first">
-            <h3>Somos una empresa Mexicana , especializada en crear soluciones tecnologícas.</h3>
+          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
+            <img src="assets/img/mujer-negocios.jpg" class="img-fluid" alt="Skytech" data-aos="fade-up">
             
+          </div>
+          <div class="col-lg-6 content order-last  order-lg-first">
+            <h3>Nos especializamos en desarrollar software que ayude tanto a negocios grandes como a PYMES.</h3>
             <ul>
               <li data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-hand-thumbs-up"></i>
                 <div>
                   <h5>SOMOS TUS ALIADOS</h5>
-                  <p>En Skytech nos especializamos en desarrollo de software, creando sistemas innovadores y eficientes que cumplan y satisfagan los requerimientos de nuestros clientes.</p>
+                  <p>En Skytech nos centramos en el desarrollo de software, creando sistemas innovadores y eficientes que cumplan y satisfagan los requerimientos de nuestros clientes.</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-code-square"></i>  
+                <i class="bi bi-code-square"></i>
                 <div>
                   <h5>ENFOCADOS EN LAS TECNOLOGÍAS ACTUALES</h5>
                   <p>Analizamos tus requerimientos y determinamos cual es la mejor tecnología para tu proyecto.</p>
@@ -126,56 +147,51 @@
 
     <!-- ======= Services Section ======= -->
     
+    <!-- Pendiente -->
 
         <!-- ======= Features Section ======= -->
-    <section id="features" class="features pt-0 pb-5">
-      <div class="container">
+        <section id="features" class="features pt-0 pb-5">
+          <div class="container">
+    
+            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+    
+              <div class="col-md-5">
+                <img src="assets/img/capacidad.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-7">
+                <h3>INCREMENTAMOS LA CAPACIDAD Y EFICIENCIA DE NUESTROS CLIENTES CON:</h3>
+                <p class="fst-italic">
+                  <ul>
+                    <li><i class="bi bi-check"></i> Software de calidad.</li>
+                    <li><i class="bi bi-check"></i> Automatización y mayor productividad a nivel empresarial.</li>
+                    <li><i class="bi bi-check"></i> Reducción real de costos.</li>
+                    <li><i class="bi bi-check"></i> Ahorro de tiempo.</li>
+                    <li><i class="bi bi-check"></i> Mayor seguridad.</li>
+                  </ul>
+                </p>
+                
+              </div>
+            </div><!-- Features Item -->
 
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-
-          <div class="col-md-5">
-            <img src="assets/img/capacidad.jpg" class="img-fluid" alt="">
+            <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
+    
+              <div class="col-md-5 order-1 order-md-2">
+                <img src="assets/img/especialidad.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-7">
+                <h3>ALGUNOS DE NUESTROS SERVICIOS:</h3>
+                <p class="fst-italic">
+                  <ul>
+                    <li><i class="bi bi-check"></i> Maquetación, diseño, desarrollo y de tu software.</li>
+                    <li><i class="bi bi-check"></i> Desarrollo con integraciones de servicios externos.</li>
+                    <li><i class="bi bi-check"></i> Actualizacion de sistemas existentes.</li>
+                  </ul>
+                </p>
+                
+              </div>
+            </div><!-- Features Item -->
           </div>
-          <div class="col-md-7">
-            <h3>INCREMENTAMOS LA CAPACIDAD Y EFICIENCIA DE NUESTROS CLIENTES CON:</h3>
-            <p class="fst-italic">
-              <ul>
-                <li><i class="bi bi-check"></i> Software de calidad.</li>
-                <li><i class="bi bi-check"></i> Automatización y mayor productividad a nivel empresarial.</li>
-                <li><i class="bi bi-check"></i> Reducción real de costos.</li>
-                <li><i class="bi bi-check"></i> Ahorro de tiempo y dinero.</li>
-                <li><i class="bi bi-check"></i> Mayor seguridad.</li>
-              </ul>
-            </p>
-            
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="assets/img/especialidad.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-7 order-2 order-md-1">
-            <h3>ESPECIALIDADES TÉCNICAS</h3>
-            <p class="fst-italic">
-              <ul>
-                <li><i class="bi bi-check"></i> Desarollo de software de negocios electrónicos.</li>
-                <li><i class="bi bi-check"></i> Desarollo de software de escritorio.</li>
-              </ul>
-            </p>
-          </div>
-        </div><!-- Features Item -->
-
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- <section id="features" class="features">
-
-        
-
-      </div>
-    </section> -->
-    <!-- End Services Section -->
+        </section><!-- End Features Section -->
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">
@@ -192,174 +208,69 @@
       </div>
     </section><!-- End Call To Action Section -->
 
-    
+   <!-- ======= Frequently Asked Questions Section ======= -->
+   <section id="faq" class="faq pt-0">
+    <div class="container" data-aos="fade-up">
 
-   
-    <section id="pricing" class="pricing pt-0">
-
-        </div>
-
-      </div>
-    </section>
-    <!-- End Pricing Section -->
-
-    <!-- ======= Pendiente Clientes 
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="slides-1 swiper" data-aos="fade-up">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div> End testimonial item -->
-
-            <!--<div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div> End testimonial item -->
-
-           <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div> End testimonial item -->
-
-            <!--<div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div> End testimonial item -->
-
-            <!--<div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div> End Pendiente Clientes -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+      <div class="section-header">
+        <h2>Preguntas frecuentes</h2>
 
       </div>
-    </section><!-- End Testimonials Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq pt-0">
-      <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-10">
 
-        <div class="section-header">
-          <h2>Preguntas frecuentes</h2>
+          <div class="accordion accordion-flush" id="faqlist">
 
-        </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-10">
-
-            <div class="accordion accordion-flush" id="faqlist">
-
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    ¿Cuánto tiempo tarda el desarrollo de mi proyecto?
-                  </button>
-                </h3>
-                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Nuestros expertos en el área analizarán tus requerimientos y te ofreceremos una solución práctica y eficiente. Se te propondrá un tiempo de entrega de acuerdo a tus necesidades tecnológicas.
-                    Cada proyecto es diferente y pueden requerir mayor o menor tiempo.
-                  </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                  <i class="bi bi-question-circle question-icon"></i>
+                  ¿Cuánto tiempo tarda el desarrollo de mi proyecto?
+                </button>
+              </h3>
+              <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Nuestros expertos en el área analizarán tus requerimientos y te ofreceremos una solución práctica y eficiente. Se te propondrá un tiempo de entrega de acuerdo a tus necesidades tecnológicas.
+                  Cada proyecto es diferente y pueden requerir mayor o menor tiempo.
                 </div>
-              </div><!-- # Faq item-->
+              </div>
+            </div><!-- # Faq item-->
 
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    ¿Mi proyecto tendrá soporte técnico?
-                  </button>
-                </h3>
-                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Nuestro valor agregado, es la capacidad de seguir en contacto con nuestros clientes, y la mejor manera es ofrecerles un servicio post-desarrollo.
-                  </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                  <i class="bi bi-question-circle question-icon"></i>
+                  ¿Mi proyecto tendrá soporte técnico?
+                </button>
+              </h3>
+              <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Nuestro valor agregado, es la capacidad de seguir en contacto con nuestros clientes, y la mejor manera es ofrecerles un servicio post-desarrollo.
                 </div>
-              </div><!-- # Faq item-->
+              </div>
+            </div><!-- # Faq item-->
 
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                    <i class="bi bi-question-circle question-icon"></i>
-                    ¿Cómo aprendo a utilizar mi proyeto?
-                  </button>
-                </h3>
-                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Estamos comprometidos al 100% con nuestros clientes. No te preocupes, nosotros te capacitamos.
-                  </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                  <i class="bi bi-question-circle question-icon"></i>
+                  ¿Cómo aprendo a utilizar mi proyeto?
+                </button>
+              </h3>
+              <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Estamos comprometidos al 100% con nuestros clientes. No te preocupes, nosotros te capacitamos.
                 </div>
               </div>
             </div>
-
           </div>
-        </div>
 
+        </div>
       </div>
-    </section> <!-- End Frequently Asked Questions Section -->
+
+    </div>
+  </section> <!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
 
@@ -384,12 +295,22 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Nuestros servicios</h4>
           <ul>
-            <li><a href="contacto">Páginas Web</a></li>
+            <li><a href="contacto">Desarrollo de páginas Web</a></li>
             <li><a href="contacto">Desarrollo Web</a></li>
-            <li><a href="contacto">Ecommerce</a></li>
-            <li><a href="contacto">ERP</a></li>
-            <li><a href="contacto">CRM</a></li>
+            <li><a href="contacto">Desarrollo de ecommerce</a></li>
+            <li><a href="contacto">Desarrollo de ERP</a></li>
+            <li><a href="contacto">Desarrollo de CRM</a></li>
             <li><a href="contacto">Sistemas a medida</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="inicio">Inicio</a></li>
+            <li><a href="nosotros">Nosotros</a></li>
+            <li><a href="servicios">Servicios</a></li>
+            <li><a href="contacto">Contacto</a></li>
           </ul>
         </div>
 
@@ -436,7 +357,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js?version=20221019"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
